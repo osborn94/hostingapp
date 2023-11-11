@@ -1,0 +1,229 @@
+body{
+
+background-color: lightgray;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+
+}
+
+
+.container{
+
+text-align: center;
+width: 65%;
+background-color: rgb(172, 202, 202);
+margin: auto;
+
+
+}
+
+input[type=text]{
+
+width: 60%;
+padding: 12px;
+border-radius: 7px;
+border: 2px solid gray;
+background-color: transparent;
+
+
+}
+
+input[type=text]:focus{
+
+font-size: 15px;
+outline: none;
+color: red;
+
+}
+
+::placeholder{
+
+font-size: 15px;
+color: darkgreen;
+
+}
+
+input[type=email]{
+
+    width: 60%;
+    padding: 12px;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background-color: transparent;
+    
+    
+    }
+    
+    input[type=email]:focus{
+    
+    font-size: 15px;
+    outline: none;
+    color: red;
+    
+    }
+
+
+
+
+    input[type=password]{
+
+        width: 60%;
+        padding: 12px;
+        border-radius: 7px;
+        border: 2px solid gray;
+        background-color: transparent;
+        
+        
+        }
+        
+        input[type=password]:focus{
+        
+        font-size: 15px;
+        outline: none;
+        color: red;
+        }
+    
+
+        input[type=checkbox]{
+
+           
+            border: 2px solid gray;
+            
+            }
+            
+select{
+
+width: 50%;
+padding: 15px;
+border-radius: 7px;
+border: 2px solid gray;
+font-size: 15px;
+background-color: transparent;
+color: rgb(10, 9, 9);
+
+}
+
+
+input[type=date]{
+
+    width: 60%;
+    padding: 12px;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background-color: transparent;
+        
+    }
+
+textarea{
+
+width: 60%;
+background-color: transparent;
+
+
+}
+
+.reg{
+
+background-color: lightgreen;
+padding: 10px;
+border-radius: 10px;
+}
+
+
+@media(max-width: 1000px){
+
+    body{
+
+background-color: darkcyan;
+font-size: 15px;
+
+    }
+
+.container{
+
+background-color: transparent;
+
+}
+
+::placeholder{
+
+color: darkgrey;
+font-size: 11px;
+
+
+}
+
+input[type=text]{
+
+color: white;
+}
+
+input[type=text]:focus{
+
+color: white;
+}
+
+
+input[type=email]:focus{
+
+    color: white;
+    }
+    
+    input[type=password]:focus{
+
+        color: white;
+        }
+        
+
+
+
+
+
+
+
+label{
+
+color: rgb(235, 235, 79);
+
+
+}
+
+legend{
+
+color: black;
+text-transform: capitalize;
+
+
+}
+
+fieldset{
+
+border: 10px white thick;
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
